@@ -1,14 +1,17 @@
 {
-  "name": "modern-portfolio",
+  "name": "zaid-saeed-portfolio",
   "version": "1.0.0",
   "description": "A portfolio where I display all of my works as a devlopper",
   "main": "index.js",
+  "homepage": "https://zaidsaeed.github.io/zaid-saeed-portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Zaid Saeed",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.3"
   }
 }
